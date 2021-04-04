@@ -3,7 +3,6 @@
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 div{
     padding-top: 1%;
     justify-content: center;
@@ -15,7 +14,7 @@ div{
     font-style: oblique;
     font-size: 2em;
 }
-ul{
+#inpt{
     display: block;
     list-style-type: none;
     vertical-align:text-bottom;
@@ -30,8 +29,8 @@ input,input::-webkit-inner-spin-button{
     font-size: 1.5em;
     box-shadow: 5px 5px 5px;
     cursor:pointer;
+    font-weight: bolder;
 }
-
 #btn{
     height: 5%;
     width: 10%;
@@ -43,13 +42,19 @@ input,input::-webkit-inner-spin-button{
     transition-duration: 0.4s;
     cursor: pointer;
 }
-#btn:hover{
+.btn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #img{
     margin-top:0%;
     margin-bottom: -3%;
     height:60%
+}
+#result{
+    font-size: 1.5em;
+    font-style:oblique;
+    color:brown;
+    font-weight: bolder;
 }
 #footer{
     font-size: 1.5em;
